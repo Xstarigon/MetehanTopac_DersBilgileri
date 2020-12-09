@@ -8,7 +8,7 @@ namespace MetehanTopac_DersBilgileri
 {
     class MemoryOperations : IOperations
     {
-        private List<Ders> dersler = new List<Ders>()
+        private static List<Ders> dersler = new List<Ders>()
         {
             new Ders()
                 { ID = 1, Adi = "Matematik", Icerik = "Mantık", Kategori = KategoriEnum.Sayısal, Kredi = 4 },

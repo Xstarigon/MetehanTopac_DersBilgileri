@@ -90,9 +90,9 @@ namespace MetehanTopac_DersBilgileri
             };
 
             dersService.Add(ders);
-            FillGrid();
             MessageBox.Show("Veri giriş işlemi tamamlandı.", "Başarılı", MessageBoxButtons.OK,
                 MessageBoxIcon.Information);
+            FillGrid();
         }
     }
 }
